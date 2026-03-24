@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gabriel Braz - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Gabriel Braz</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="portfolio.html">Projetos</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contato</h2>
+
+        <form id="contact-form" onsubmit="enviarMensagem(event)">
+            <label>Nome:</label>
+            <input type="text" placeholder="Seu nome" required>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Seu email" required>
+
+            <label>Mensagem:</label>
+            <textarea placeholder="Escreva sua mensagem" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+
+        <hr>
+
+        <h3>Minhas Redes Sociais</h3>
+        <a href="https://github.com/Gabrielbrzz" target="_blank" class="social-link">Meu GitHub</a>
+        <a href="https://www.instagram.com/gbrzz._/" target="_blank" class="social-link">Meu Instagram</a>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

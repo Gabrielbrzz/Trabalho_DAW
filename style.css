@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #0055ff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+h1,
+h2,
+h3 {
+    color: #003366;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #0055ff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.box {
+    border: 1px solid #0055ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f4f8ff;
+}
+
+.box ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.social-link {
+    display: block;
+    background-color: #0055ff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.img-novidades {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
